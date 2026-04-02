@@ -1,0 +1,21 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# ML stuff
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

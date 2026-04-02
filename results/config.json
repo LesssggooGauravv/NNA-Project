@@ -1,0 +1,29 @@
+{
+  "sequence_lengths": [
+    10,
+    50,
+    100,
+    200,
+    500
+  ],
+  "models": [
+    "RNN",
+    "GRU",
+    "LSTM",
+    "Attn-LSTM"
+  ],
+  "num_samples": 10000,
+  "num_classes": 8,
+  "noise_std": 1.0,
+  "batch_size": 64,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "dropout": 0.0,
+  "epochs": 30,
+  "learning_rate": 0.001,
+  "clip_value": 5.0,
+  "train_ratio": 0.8,
+  "seed": 42,
+  "results_dir": "results",
+  "plots_dir": "plots"
+}
